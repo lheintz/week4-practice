@@ -1,0 +1,34 @@
+<style>
+
+body {
+/*  global sans serif font family, change background to black */
+}
+
+header h1 {
+/*   make bigger font, change color, change font family */
+}
+
+.main-nav {
+/*  change background color, remove bullets, border on each individual nav element. float the link elements, padding, border, center our content within the links, width on links, font color, sans serif, remove underline, maybe add a color selection*/
+}
+
+aside {
+/*  clear float, background color, float it to the left */
+}
+
+aside ul {
+/* clear both */
+}
+
+article {
+/* background-color, float to the right? */
+}
+
+figure {
+/*  we want to center using margin: auto*/
+}
+
+footer {
+/*  images float left and centered on the page.*/
+}
+</style>
