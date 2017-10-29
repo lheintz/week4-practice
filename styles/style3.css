@@ -1,0 +1,49 @@
+<style>
+
+body {
+  background-color:black;
+  font-family: Tahoma, sans-serif;
+}
+
+body {
+  background-color:azure;
+  font-family: Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  color:darkturquoise;
+}
+
+nav {
+  background-color: goldenrod;
+  height:100px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 2px;
+  border-style: solid;
+  border-color:black;
+  border-width: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: lowercase;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+nav a:hover {
+  text-transform: uppercase; 
+  color:blue;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  text-shadow: 3px 2x grey;
+}
+
+</style>

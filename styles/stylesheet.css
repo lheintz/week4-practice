@@ -1,19 +1,77 @@
-<style>
-
+html {
+  height:100%;
+}
 body {
 /*  global sans serif font family, change background to black */
+  font-family: Helvetica, sans-serif;
+  background-color:black;
+  margin:0px auto;
+  min-height:100%;
+}
+
+.content-wrapper {
+  /* Center on page, set width */
+  width:85%;
+  min-height: -webkit-fill-available;
+  margin:0px auto;
+  background-color:white;
+}
+
+header{
+  padding-top:5px;
 }
 
 header h1 {
 /*   make bigger font, change color, change font family */
+  font-size: 45px;
+  text-align: center;
+  color:rgb(136, 102, 204);
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+nav ul {
+  list-style-type:none;
+  margin:auto;
+  padding:0;
+  overflow:hidden;
+  height:2.5em;
+  text-align:center;
+}
+
+nav li {
+  float:left;
+  width: 14%;
+  height:100%;
+  display: inline-block;
+}
+
+li a {
+  display: inline-block;
+  color:white;
+  width:100%;
+  height:100%;
+  line-height:40px;
+  text-align:center;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+li a:hover {
+  background-color:darkgrey;
 }
 
 .main-nav {
 /*  change background color, remove bullets, border on each individual nav element. float the link elements, padding, border, center our content within the links, width on links, font color, sans serif, remove underline, maybe add a color selection*/
+  background-color:rgb(136, 102, 204);
+  text-align:justify;
 }
 
 aside {
 /*  clear float, background color, float it to the left */
+  clear:both;
+  float:left;
+  background-color:rgb(212, 203, 230);
 }
 
 aside ul {
@@ -22,6 +80,9 @@ aside ul {
 
 article {
 /* background-color, float to the right? */
+/*  clear:both;*/
+/*  float:right;*/
+/*  background-color:rgb(215, 211, 222);*/
 }
 
 figure {
@@ -30,5 +91,5 @@ figure {
 
 footer {
 /*  images float left and centered on the page.*/
+  clear:both;
 }
-</style>
